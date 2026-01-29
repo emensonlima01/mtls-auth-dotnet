@@ -1,0 +1,16 @@
+{
+  "profiles": {
+    "Payment.Api": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "Webhook__BaseUrl": "https://localhost:7037/",
+        "Webhook__ClientCertificate__Path": "Certificates\\payment-api-client.pfx",
+        "Webhook__ClientCertificate__Password": "change_me"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7020"
+    }
+  },
+  "$schema": "https://json.schemastore.org/launchsettings.json"
+}
